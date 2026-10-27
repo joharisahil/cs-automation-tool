@@ -1,0 +1,3 @@
+-- Synthetic starter data only. Create a matching auth user before using these values.
+-- Add any desired fixture users and assignments inside a local-only migration or test.
+-- Production owner creation is documented in README.md and must use trusted tooling.

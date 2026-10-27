@@ -1,0 +1,2 @@
+"use client";
+export default function DashboardError({ reset }: { error: Error & { digest?: string }; reset: () => void }) { return <div className="rounded-xl border border-border bg-card p-8 text-center"><h2 className="text-lg font-semibold">We couldn’t load this page</h2><p className="mt-2 text-sm text-muted-foreground">Please try again. If this continues, contact your workspace administrator.</p><button onClick={reset} className="mt-5 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground">Try again</button></div>; }
